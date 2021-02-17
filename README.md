@@ -1,1 +1,1 @@
-# curso-react-ts
+# Curso introdutório de React e TypeScript
