@@ -1,20 +1,20 @@
-import React from 'react';
-import logo from '../../../src/assets/logo.png';
+import logo from '../../../src/assets/logo.webp';
 
-import './index.css'
+// import * as S from './styled';
+import { Container, Logo, Input, Button } from './styled';
 
 function SignIn() {
 
   return (
     <>
-      <div className="sign-in-page">
-        <img src={logo} alt="logo" />
-        <input type="text" defaultValue="test@email.com" />
-        <input type="password" defaultValue="12345678" />
-        <button onClick={() =>{}}>
+      <Container>
+        <Logo src={logo} alt="logo" />
+        <Input type="text" defaultValue="test@email.com" />
+        <Input type="password" defaultValue="12345678" />
+        <Button onClick={() =>{}}>
           Entrar
-        </button>
-      </div>
+        </Button>
+      </Container>
     </>
   )
 };
