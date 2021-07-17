@@ -13,7 +13,7 @@ interface User {
     ageNoOptional?: boolean
 }
 
-function printUser(user: User) {
+function print(user: User) {
     console.log(user.name); // print 'Lucas'
 }
 
